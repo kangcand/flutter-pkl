@@ -19,6 +19,11 @@ class MyApp extends StatelessWidget {
         imageSize: 130,
         imageSrc: "assets/img/logologo.png",
         backgroundColor: Colors.white,
+        text: "Pkl App",
+        textType: TextType.TyperAnimatedText,
+        textStyle: TextStyle(
+          fontSize: 30.0,
+        ),
       ),
     );
   }
